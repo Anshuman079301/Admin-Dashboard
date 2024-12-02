@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="dash()">
+  <nav>
+    <ul type="none">
+      <li onclick="dash1()">Dashboard</li>
+      <li onclick="insert()">Insert</li>
+      <li onclick="return run()">Table</li>
+    </ul>
+  </nav>
+  <div id="card">
+    <img src="./card1.avif" alt="" width="300px" height="300px">
+    <img src="./card2.jpg" alt="" width="300px" height="300px">
+    <img src="./card3.jpg" alt="" width="300px" height="300px">
+    <img src="./images (1).jpg" alt="" width="300px" height="300px">
+    <img src="./images (2).jpg" alt="" width="300px" height="300px">
+    <img src="./images.jpg" alt="" width="300px" height="300px">
+    <img src="./sddefault.jpg" alt="" width="300px" height="300px">
+    <img
+      src="./welcome-back-to-school-greeting-card-template-back-to-school-greeting-card-template-school-supplies-welcoming-poster-design-117770956.webp"
+      alt="" width="300px" height="300px">
+    <!-- <img src="./card4 .jpg" alt="" width="300px" height="300px"> -->
+
+
+  </div>
+  <div id="form">
+    <label for="">Name</label>
+    <input type="text" placeholder="enter your name here" id="name">
+    <label for="">Age</label>
+    <input type="text" placeholder="enter your email here" id="age">
+    <label for="">Number</label>
+    <input type="text" placeholder="enter your number here" id="number">
+    <label for="">Address</label>
+    <input type="text" placeholder="enter strong password here" id="address">
+    <button onclick=" return add()">Insert</button>
+  </div>
+  <table border="">
+    <thead>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Number</th>
+      <th>Address</th>
+      <th>Delete</th>
+      <th>Update</th>
+    </thead>
+    <tbody id="table">
+
+    </tbody>
+  </table>
+  <div id="edit"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
